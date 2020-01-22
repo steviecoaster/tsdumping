@@ -1,5 +1,0 @@
-name: 'testing-chocolatey'
-author: 'Tim Heuer'
-runs:
-  using: 'node12'
-  main: 'dist/index.js'
