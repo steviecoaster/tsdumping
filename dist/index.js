@@ -1531,7 +1531,7 @@ const exec = __importStar(__webpack_require__(358));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            yield exec.exec(`choco install vswhere -v --cache-location=vswhere`);
+            yield exec.exec(`choco install vswhere -y`);
         }
         catch (error) {
             core.setFailed(error.message);
